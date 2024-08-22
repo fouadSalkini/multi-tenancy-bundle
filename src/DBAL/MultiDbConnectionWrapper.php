@@ -38,7 +38,7 @@ final class MultiDbConnectionWrapper extends Connection
                 $this->config,
                 $this->eventManager
             );
-            $this->connect();
+            // $this->connect();
             
         } catch (Exception $e) {
             // return to the main db
