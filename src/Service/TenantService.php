@@ -73,7 +73,7 @@ class TenantService
         }
         
         try {
-            $connection->connect();
+            //$connection->connect();
         } catch (\Exception $e) {
             return;
         }
