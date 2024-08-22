@@ -16,7 +16,7 @@ final class MultiDbConnectionWrapper extends Connection
 
     public function __construct(
         private array $params,
-        private Driver $driver,
+        protected Driver $driver,
         private ?Configuration $config = null,
         private ?EventManager $eventManager = null,
     ) {
